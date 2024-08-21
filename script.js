@@ -2,7 +2,7 @@ function volume_sphere() {
     //Write your code here
 	
     // Retrieve the radius value from the input field
-    var radius = document.getElementById('radius').value;
+    let radius = document.getElementById('radius').value;
 
     // Convert the radius to a floating-point number
     radius = parseFloat(radius);
@@ -14,7 +14,7 @@ function volume_sphere() {
     }
 
     // Calculate the volume of the sphere using the formula: V = (4/3) * π * r^3
-    var volume = (4/3) * Math.PI * Math.pow(radius, 3);
+    let volume = (4/3) * Math.PI * Math.pow(radius, 3);
 
     // Round the calculated volume to four decimal places
     volume = volume.toFixed(4);
