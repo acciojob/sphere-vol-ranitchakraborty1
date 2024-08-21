@@ -10,7 +10,7 @@ function volume_sphere() {
     // Validate the input (ensure the radius is a non-negative number)
     if (isNaN(radius) || radius < 0) {
         alert("Please enter a valid non-negative number for the radius.");
-        return; // Exit the function if the input is invalid
+        return; 
     }
 
     // Calculate the volume of the sphere using the formula: V = (4/3) * π * r^3
